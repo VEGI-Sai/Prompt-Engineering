@@ -25,3 +25,5 @@ vector_store = FAISS.from_documents(
 print("Vector database created successfully.")
 vector_store.save_local("faiss_index")
 print("FAISS index saved successfully.")
+except Exception as e:
+ print("\nError:", e)
