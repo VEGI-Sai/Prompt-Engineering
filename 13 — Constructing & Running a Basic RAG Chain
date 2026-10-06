@@ -44,4 +44,7 @@ try:
  "question": question
  })
  print("\n--- RAG RESPONSE ---")
- print(response
+ print(response)
+except Exception as e:
+ print("\nError:", e)
+
